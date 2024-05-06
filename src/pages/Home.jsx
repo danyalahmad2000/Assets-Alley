@@ -38,7 +38,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="flex justify-center">
-          <div className=" max-w-full pl-4 gap-10 mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+          <div className=" max-w-full pl-5 gap-10 mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
             <CountryCards />
           </div>
         </div>
