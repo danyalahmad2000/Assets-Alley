@@ -7,7 +7,7 @@ import SearchIcon from './search-components/SearchIcon'
 const Search = () => {
   return (
     <>
-    <div className='flex flex-row absolute '>
+    <div className='flex w-full flex-col lg:flex-row md:absolute '>
         <Location/>
         <Property/>
         <Price/>

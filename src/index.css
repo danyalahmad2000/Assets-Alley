@@ -4,6 +4,10 @@
 
 @layer components{
     
+    .container{
+        @apply max-w-full w-[1440px] mx-auto;
+    }
+
     .heading{
         @apply text-[55px] leading-[60px] font-[800] tracking-[1px] text-headingColor;
     }
@@ -13,4 +17,19 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .container{
+        @apply w-full;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .heading{
+        @apply text-[26px] leading-[36px] text-center;
+    }
+
+    .text__para{
+        @apply text-[16px] leading-7 mt-3 text-center;
+    }
+}
 

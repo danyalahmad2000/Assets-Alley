@@ -13,3 +13,15 @@ body {
 .ant-tabs-nav{
   margin: 0 !important;
 }
+
+/* CSS */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity to your liking */
+  backdrop-filter: blur(10px); /* Add backdrop filter for the glass effect */
+  z-index: 1000;
+}
+

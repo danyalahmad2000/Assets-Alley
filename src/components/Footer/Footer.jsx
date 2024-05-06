@@ -50,8 +50,8 @@ const Footer = () => {
 
   return (
     <footer className="pb-16 pt-10">
-      <div className="w-[1440px] mx-auto">
-        <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px]">
+      <div className="container">
+        <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px] px-10">
           <div className="w-[500px]">
             <h1 className="text-[34px] mb-[20px] font-[700]">Assets Alley</h1>
             <p className="text-[16px] leading-7 font-[400] text-textColor mb-[20px]">
