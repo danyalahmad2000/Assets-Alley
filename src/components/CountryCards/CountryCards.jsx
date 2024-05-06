@@ -7,7 +7,7 @@ import london from "../../assets/images/london.jpg";
 const CountryCards = () => {
   return (
     <>
-      <div className="w-full max-h-[400px] mx-[30px] rounded-[20px] mb-[30px]">
+      <div className="w-full max-h-[400px]  rounded-[20px] mb-[30px]">
         <img
           className="w-full h-[400px] rounded-[20px] object-cover object-center"
           src={america}
@@ -15,7 +15,7 @@ const CountryCards = () => {
         />
       </div>
 
-      <div className="w-full max-h-[400px] mx-[30px] rounded-[20px] mb-[30px]">
+      <div className="w-full max-h-[400px]  rounded-[20px] mb-[30px]">
         <img
           className="w-full h-[400px] rounded-[20px] object-cover object-center"
           src={france}
@@ -23,7 +23,7 @@ const CountryCards = () => {
         />
       </div>
 
-      <div className="w-full max-h-[400px] mx-[30px] rounded-[20px] mb-[30px]">
+      <div className="w-full max-h-[400px]  rounded-[20px] mb-[30px]">
         <img
           className="w-full h-[400px] rounded-[20px] object-cover object-center"
           src={italy}
@@ -31,7 +31,7 @@ const CountryCards = () => {
         />
       </div>
 
-      <div className="w-full max-h-[400px] mx-[30px] rounded-[20px] mb-[30px]">
+      <div className="w-full max-h-[400px]  rounded-[20px] mb-[30px]">
         <img
           className="w-full h-[400px] rounded-[20px] object-cover object-center"
           src={london}
