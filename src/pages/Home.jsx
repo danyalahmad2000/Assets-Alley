@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="container mx-auto mt-[120px]">
       <div className="bg-[#ECF1F7] relative h-screen lg:max-h-[600px] rounded-[70px] flex flex-row justify-between overflow-hidden mb-[40px]">
-        <div className=" px-2 py-2 lg:pl-32 lg:pt-32 absolute lg:relative z-10 px-auto container">
+        <div className=" px-2 py-2 lg:pl-7 xl:pl-32 lg:pt-32 absolute lg:relative z-10 container">
           <div className="w-full lg:max-w-[500px]">
             <h1 className="heading mt-[120px] lg:mt-0 mb-[10px] lg:mb-[40px] text-black lg:text-black">
               Easy way to find a perfect property
@@ -45,7 +45,7 @@ const Home = () => {
       </div>
 
       <div className="bg-[#ECF1F7] container h-screen lg:max-h-[500px] rounded-[70px] flex flex-col md:flex-row justify-between overflow-hidden mb-[40px]">
-        <div className=" px-2 py-2 lg:pt-24 z-10 px-auto container w-full lg:max-w-[600px] mt-[60px] lg:mt-0 text-center lg:text-left">
+        <div className=" px-2 py-2 lg:pl-7 lg:pt-24 z-10 px-auto container w-full lg:max-w-[600px] mt-[60px] lg:mt-0 text-center lg:text-left">
           <div className="">
             <h1 className="heading lg:mt-0 mb-[40px] leading-[65px]">
               Find your best Real Estate
