@@ -7,10 +7,10 @@ import CountryCards from "../components/CountryCards/CountryCards";
 const Home = () => {
   return (
     <div className="container mx-auto mt-[120px]">
-      <div className="bg-[#ECF1F7] relative h-screen lg:max-h-[600px] rounded-[70px] flex flex-row justify-between overflow-hidden mb-[40px]">
-        <div className=" px-2 py-2 lg:pl-7 xl:pl-32 lg:pt-32 absolute lg:relative z-10 container">
+      <div className="bg-[#ECF1F7] relative h-screen sm:h-[800px] lg:max-h-[600px] rounded-[70px] flex flex-col lg:flex-row justify-between mb-[40px]">
+        <div className="px-2 py-2 lg:pl-7 xl:pl-32 lg:pt-32 absolute lg:relative z-10 container lg:w-1/2">
           <div className="w-full lg:max-w-[500px]">
-            <h1 className="heading mt-[120px] lg:mt-0 mb-[10px] lg:mb-[40px] text-black lg:text-black">
+            <h1 className="heading mt-[240px] lg:mt-0 mb-[10px] lg:mb-[40px] text-black lg:text-black">
               Easy way to find a perfect property
             </h1>
             <p className="text__para mb-[10px] lg:mb-[40px]]">
@@ -22,9 +22,9 @@ const Home = () => {
             <Tabs />
           </div>
         </div>
-        <div className="">
+        <div className="lg:w-1/2">
           <img
-            className="size-[600px] absolute bottom-[-15] right-0 lg:mt-[100px]"
+            className="size-[200px] absolute bottom-[-15] right-[240px] lg:right-0 md:right-0 lg:mt-[100px]"
             src={heroImg}
             alt=""
           />
@@ -38,14 +38,14 @@ const Home = () => {
           </h1>
         </div>
         <div className="flex justify-center">
-          <div className=" max-w-full pl-5 gap-10 mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+          <div className="max-w-full pl-5 gap-10 mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
             <CountryCards />
           </div>
         </div>
       </div>
 
       <div className="bg-[#ECF1F7] container h-screen lg:max-h-[500px] rounded-[70px] flex flex-col md:flex-row justify-between overflow-hidden mb-[40px]">
-        <div className=" px-2 py-2 lg:pl-7 lg:pt-24 z-10 px-auto container w-full lg:max-w-[600px] mt-[60px] lg:mt-0 text-center lg:text-left">
+        <div className="px-2 py-2 lg:pl-7 lg:pt-24 z-10 px-auto container w-full lg:max-w-[600px] mt-[60px] lg:mt-0 text-center lg:text-left lg:w-1/2">
           <div className="">
             <h1 className="heading lg:mt-0 mb-[40px] leading-[65px]">
               Find your best Real Estate
@@ -59,7 +59,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="mx-auto lg:mx-0">
+        <div className="mx-auto lg:mx-0 lg:w-1/2">
           <img className="size-[600px]" src={heroImg2} alt="" />
         </div>
       </div>
