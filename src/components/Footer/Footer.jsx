@@ -52,7 +52,7 @@ const Footer = () => {
     <footer className="pb-16 pt-10">
       <div className="container">
         <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px] px-10">
-          <div className="w-[500px]">
+          <div className="w-full">
             <h1 className="text-[34px] mb-[20px] font-[700]">Assets Alley</h1>
             <p className="text-[16px] leading-7 font-[400] text-textColor mb-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

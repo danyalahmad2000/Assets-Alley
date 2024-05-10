@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header className="sticky-header">
-      <div className="max-w-full w-full h-[100px] flex md:pr-2 lg:pr-2">
+      <div className="max-w-full  h-[100px] flex md:pr-2 lg:pr-2">
         <div className="container mx-auto flex flex-row justify-between items-center">
           <div className="w-[150px] h-[50px] flex items-center justify-center my-5">
             <h1 className="font-[800] text-[20px] text-center">Asset Alley</h1>
