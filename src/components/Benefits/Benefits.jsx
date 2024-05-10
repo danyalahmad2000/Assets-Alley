@@ -22,7 +22,7 @@ const Benefits = () => {
       </div>
 
       <div className="w-full max-h-[600px] rounded-[20px] mb-[30px] ">
-        <div className="bg-[#ECF1F7] size-[400px] rounded-full mx-auto flex justify-center items-center hover:bg-blue-400">
+        <div className="bg-[#ECF1F7] size-[350px] md:size-[400px] rounded-full mx-auto flex justify-center items-center hover:bg-blue-400">
           <p className="text-[32px] font-[800] text-center">
             Cut out expensive Agency and Management Fees
           </p>
